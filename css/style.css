@@ -1,0 +1,131 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+  background-color: #a4d1c8;
+}
+h1{
+    font-size: 5.625rem; /*16px=1em=100%    90px=5.625em* rem font size does not get affected by its parent font size.*/
+    margin-top: 0;
+    width:30%;
+    margin:0 auto 0 auto; /*auto centers the box horizotally and vertically.*/
+    font-family: 'Sacramento', cursive;
+    color: #1089ff;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #1089ff;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  color:#e3ceeb;
+}
+
+.topcontainer{
+background-color: #51dacf;
+position: relative;
+padding-top: 100px;
+line-height: 1;
+}
+.intro{
+  width:30%;
+  margin: auto;
+}
+.middle-container{
+  margin:100px 0px;
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:20px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom:300px;
+}
+
+span{
+  text-decoration: underline;
+}
+.skill-row{
+  width:50%;
+  text-align: left;
+  margin: 100px auto 100px auto;
+
+}
+.computer{
+  float:left;
+  border-radius: 100%;   /* To avoid wrapping of text around image use "clear:left" in pargraph to clear any paragraph text left to image*/
+  margin-right: 30px;
+}
+.Gamer{
+  float: right;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+hr{
+  border-style: dotted none none none;
+  width:5%;
+  height:5px 0px 0px 0px;
+  border-width:10px;
+  border-color: #EAF6F6;
+  margin:30px auto;
+}
+.contact-message{
+  margin:40px auto 60px;
+  width:30%;
+}
+.btn {
+  background: #575d61;
+  background-image: -webkit-linear-gradient(top, #575d61, #6dabd1);
+  background-image: -moz-linear-gradient(top, #575d61, #6dabd1);
+  background-image: -ms-linear-gradient(top, #575d61, #6dabd1);
+  background-image: -o-linear-gradient(top, #575d61, #6dabd1);
+  background-image: linear-gradient(to bottom, #575d61, #6dabd1);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #e5e4f0;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e3ceeb;
+  background-image: -webkit-linear-gradient(top, #e3ceeb, #527575);
+  background-image: -moz-linear-gradient(top, #e3ceeb, #527575);
+  background-image: -ms-linear-gradient(top, #e3ceeb, #527575);
+  background-image: -o-linear-gradient(top, #e3ceeb, #527575);
+  background-image: linear-gradient(to bottom, #e3ceeb, #527575);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #51dacf;
+  padding:30px;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-link{
+  text-decoration: none;
+  margin:30px;
+}
+.copyright{
+  font-size: 0.75rem;
+  color:#e3ceeb;
+  padding: 20px 0px;
+}
